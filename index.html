@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Minha Empresa</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-image: url('codorna-gigante-grama.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      background-position: center;
+    }
+
+    header {
+      background: linear-gradient(90deg, #2b2b2b, #000);
+      padding: 40px 20px;
+      color: #e3c468;
+      text-align: center;
+      font-size: 32px;
+      font-weight: bold;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+    }
+
+    nav {
+      background: #1a1a1a;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+      border-bottom: 3px solid #e3c468;
+    }
+
+    nav a {
+      color: #e3c468;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: white;
+    }
+
+    .container {
+      background: rgba(0, 0, 0, 0.75);
+      max-width: 1100px;
+      margin: 40px auto;
+      padding: 30px;
+      border-radius: 10px;
+      color: white;
+      border: 1px solid #e3c468;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    h2 {
+      color: #e3c468;
+      font-size: 28px;
+      border-left: 5px solid #e3c468;
+      padding-left: 10px;
+      margin-bottom: 20px;
+    }
+
+    .produtos {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 25px;
+    }
+
+    .produto {
+      padding: 20px;
+      background: #2b2b2b;
+      border-radius: 8px;
+      text-align: center;
+      border: 1px solid #e3c468;
+      transition: 0.3s;
+    }
+
+    .produto:hover {
+      transform: scale(1.03);
+      box-shadow: 0 0 10px #e3c468;
+    }
+
+    footer {
+      background: #000;
+      color: #e3c468;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      border-top: 3px solid #e3c468;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div style="font-size:48px; font-weight:bold; color:#e3c468; text-shadow:0 0 10px black;">
+    CodorGante
+  </div>
+  <div style="margin-top:10px; font-size:20px; color:white; letter-spacing:1px;">
+    Excelência em Ovos Galados de Codorna Gigante
+  </div>
+</header>
+
+<nav>
+  <a href="#home">Início</a>
+  <a href="#produtos">Produtos</a>
+  <a href="#pagamento">Pagamento</a>
+  <a href="#contato">Contato</a>
+</nav>
+
+<div class="container" id="home">
+  <h2>Qualidade e Genética Superior</h2>
+  <p>Nossos ovos galados de codorna gigante são produzidos com rigor, garantindo taxa de fertilidade elevada e excelente padrão genético. Criamos com cuidado, respeito e foco na qualidade máxima para nossos clientes.</p>
+</div>
+
+<div class="container" id="produtos">
+  <h2>Nossos Produtos</h2>
+  <div class="produtos">
+    <div class="produto">
+      <h3>Ovos galados de Codorna Gigante (30 un)</h3>
+      <p>R$38,00</p>
+      <a href="https://wa.me/5567992318589?text=Olá! Quero comprar Ovos Galados de Codorna Gigante (30 unidades)." 
+         style="display:block; margin-top:10px; padding:10px; background:#e3c468; color:black; font-weight:bold; text-decoration:none; border-radius:6px;">
+         Comprar pelo WhatsApp
+      </a>
+    </div>
+  </div>
+    <div class="produto">
+      <h3>Ovos galados de Codorna Gigante (15 un)</h3>
+      <p>R$19,00</p>
+      <a href="https://wa.me/5567992318589?text=Olá! Quero comprar Ovos Galados de Codorna Gigante (15 unidades)." 
+         style="display:block; margin-top:10px; padding:10px; background:#e3c468; color:black; font-weight:bold; text-decoration:none; border-radius:6px;">
+         Comprar pelo WhatsApp
+      </a>
+    </div>
+  </div>
+</div>
+
+<div class="container" id="pagamento">
+  <h2>Formas de Pagamento</h2>
+  <ul>
+    <li>PIX<\/li>
+  <\/ul>
+</div>
+
+<div class="container" id="contato">
+  <h2>Fale Conosco</h2>
+  <p><strong>Email:</strong> luisfernandoarevalomaia@gmail.com</p>
+  <p><strong>WhatsApp:</strong> (67) 99231-8589</p>
+  <p>Atendemos todo o Brasil. Envie uma mensagem e responderemos rapidamente!</p>
+</div>
+
+<footer>
+  <p>© 2025 CodorGante — Excelência em Ovos Galados de Codorna Gigante</p>
+  <p>Produção responsável • Qualidade garantida • Envio rápido</p>
+</footer>
+
+</body>
+  </html>
